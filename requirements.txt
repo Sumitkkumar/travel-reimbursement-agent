@@ -1,0 +1,4 @@
+groq>=0.37.1
+python-dotenv>=1.2.2
+matplotlib>=3.9.0
+numpy>=2.5.1
