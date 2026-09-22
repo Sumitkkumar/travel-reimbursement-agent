@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"), timeout=120.0)
-MODEL = 'openai/gpt-oss-20b'
+MODEL = 'openai/gpt-oss-120b'
 print('Ready, Model:', MODEL)
 
 # ---------------------- Policy Rules --------------------------------------
